@@ -1,0 +1,63 @@
+.httpMethod {
+    width: 20%;
+}
+
+.uriPath {
+    width: 70%;
+}
+
+.sampleArea {
+    width: 95%;
+}
+
+#testClientButton {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 150px;
+    font-size: x-large;
+}
+
+select {
+    margin-top: 10px;
+}
+
+.panel {
+    max-height: 150px;
+    overflow: auto;
+}
+
+    .panel input {
+        width: 150px;
+    }
+
+.uriParameterLabel {
+    width: 100px;
+    float: left;
+    border: none;
+}
+
+.ui-widget-header{
+    background:#DDD;
+}
+
+.ui-corner-all, .ui-corner-top, .ui-corner-right, .ui-corner-tr{
+    border-radius:0px;
+    border-color:#BBB;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default{
+    background: #DDD;
+}
+
+.ui-dialog .http-header{
+    margin-bottom:5px;
+}
+
+.ui-dialog .http-header input{
+    padding:2px;
+}
+
+.ui-widget input, .ui-widget select, .ui-widget textarea, .ui-widget button {
+    font-size:0.8em;
+}

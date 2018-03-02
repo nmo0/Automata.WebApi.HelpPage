@@ -1,0 +1,5 @@
+D:\GitProject\Automata.WebApi.HelpPage\bin\Debug\Automata.WebApi.HelpPage.pdb
+D:\GitProject\Automata.WebApi.HelpPage\obj\Debug\Automata.WebApi.HelpPage.csprojResolveAssemblyReference.cache
+D:\GitProject\Automata.WebApi.HelpPage\obj\Debug\Automata.WebApi.HelpPage.pdb
+D:\GitProject\Automata.WebApi.HelpPage\bin\Debug\Automata.WebApi.HelpPage.dll
+D:\GitProject\Automata.WebApi.HelpPage\obj\Debug\Automata.WebApi.HelpPage.dll
