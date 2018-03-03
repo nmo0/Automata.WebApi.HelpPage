@@ -9,7 +9,7 @@
 @model Collection<ApiDescription>
 
 @{
-    ViewBag.Title = "Niohome Business2.0 Apis";
+    ViewBag.Title = "Business1.0 Apis";
 
     // Group APIs by controller
     ILookup<HttpControllerDescriptor, ApiDescription> apiGroups = Model.OrderBy(m =>
@@ -73,10 +73,7 @@
         <div class="content-wrapper">
             <h2>Introduction</h2>
             <p>
-                Niohome Biz1.0提供了工作流所需的业务数据接口。
-            </p>
-            <p>
-                注意：api编号是通过计算接口URL的ASCII编码值的总和得出的。
+                Api 1.0
             </p>
         </div>
     </section>
@@ -110,9 +107,9 @@
 
         //获取url中的参数
         var getUrlParam = function(name) {
-            var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)"); //构造一个含有目标参数的正则表达式对象
-            var r = window.location.search.substr(1).match(reg);  //匹配目标参数
-            if (r != null) return unescape(r[2]); return null; //返回参数值
+            var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)"); 
+            var r = window.location.search.substr(1).match(reg);  
+            if (r != null) return unescape(r[2]); return null; 
         }
 
         var key = getUrlParam('key');

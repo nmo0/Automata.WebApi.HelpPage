@@ -38,21 +38,27 @@
             </tr>
         </thead>
         <tbody>
+			@if(!string.IsNullOrEmpty(HelpPageAppConfig.Site.TEST)){
             <tr class="important">
                 <td>Test</td>
-                <td>{your Test environment site}/@description.RelativePath</td>
-                <th><a href="javascript:copy('{your Test environment site}/@description.RelativePath')">Click To Copy</a></th>
+                <td>@HelpPageAppConfig.Site.TEST/@description.RelativePath</td>
+                <th><a href="javascript:copy('@HelpPageAppConfig.Site.TEST/@description.RelativePath')">Click To Copy</a></th>
             </tr>
+			}
+			@if(!string.IsNullOrEmpty(HelpPageAppConfig.Site.UAT)){
             <tr class="important">
-                <td>UAT</td>
-                <td>{your UAT environment site}/@description.RelativePath</td>
-                <th><a href="javascript:copy('{your UAT environment site}/@description.RelativePath')">Click To Copy</a></th>
+                <td>Uat</td>
+                <td>@HelpPageAppConfig.Site.UAT/@description.RelativePath</td>
+                <th><a href="javascript:copy('@HelpPageAppConfig.Site.UAT/@description.RelativePath')">Click To Copy</a></th>
             </tr>
+			}
+			@if(!string.IsNullOrEmpty(HelpPageAppConfig.Site.PROD)){
             <tr class="important">
-                <td>PRO</td>
-                <td>{your PRO environment site}/@description.RelativePath</td>
-                <th><a href="javascript:copy('{your PRO environment site}/@description.RelativePath')">Click To Copy</a></th>
+                <td>Prod</td>
+                <td>@HelpPageAppConfig.Site.PROD/@description.RelativePath</td>
+                <th><a href="javascript:copy('@HelpPageAppConfig.Site.PROD/@description.RelativePath')">Click To Copy</a></th>
             </tr>
+			}
         </tbody>
     </table>
 

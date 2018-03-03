@@ -91,7 +91,7 @@ else
                     //throw new Exception(api.ID + " 接口编号计算重复，请重命名接口名称");
                 }
             }
-            apiCode.Add(id, api.ID); //通过添加字典来检查有没有重复ID
+            apiCode.Add(id, api.ID);
 
 
             iconStr = string.Empty;
@@ -115,7 +115,7 @@ else
                 }
             }
         }
-            <td class="api-no">api 编号 <span class="api-id">@id</span></td>
+            <td class="api-no">api code <span class="api-id">@id</span></td>
             <td class="api-name"><a href="@Url.Action("Api", "Help", new { apiId = api.GetFriendlyId() })">@api.HttpMethod.Method @api.RelativePath</a> @Html.Raw(iconStr)</td>
             <td class="api-documentation">
             @if (api.Documentation != null)

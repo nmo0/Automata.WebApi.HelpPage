@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <licenseUrl>https://github.com/visten/Automata.WebApi.HelpPage</licenseUrl>
+    <projectUrl>https://github.com/visten/Automata.WebApi.HelpPage</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Automata.WebApi.HelpPage</description>
+    <releaseNotes></releaseNotes>
+    <copyright>$copyright$</copyright>
+    <tags>WebApi HelpPage</tags>
+  </metadata>
+  <files>
+    <file src="**\*.pp" target="content" />
+  </files>
+</package>

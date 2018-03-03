@@ -12,6 +12,7 @@ using System.Net.Http.Headers;
 using System.Reflection;
 using System.Web;
 using System.Web.Http;
+using $rootnamespace$.Areas.HelpPage.Models;
 #if Handle_PageResultOfT
 using System.Web.Http.OData;
 #endif
@@ -33,6 +34,11 @@ namespace $rootnamespace$.Areas.HelpPage
             Justification = "Part of a URI.")]
         public static void Register(HttpConfiguration config)
         {
+			HelpPageAppConfig.Site.TEST = "http://dev.example.com";
+			HelpPageAppConfig.Site.UAT = "http://uat.example.com";
+			HelpPageAppConfig.Site.PROD = "http://www.example.com";
+
+
             //// Uncomment the following to use the documentation from XML documentation file.
             config.SetDocumentationProvider(new XmlDocumentationProvider(
                 new List<string>() {
