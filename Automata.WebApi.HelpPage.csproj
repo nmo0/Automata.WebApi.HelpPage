@@ -176,7 +176,7 @@
     <None Include="Areas\HelpPage\Views\Help\Index.cshtml.pp" />
     <None Include="Areas\HelpPage\Views\Help\ResourceModel.cshtml.pp" />
     <None Include="Areas\HelpPage\Views\Shared\_Layout.cshtml.pp" />
-    <None Include="Areas\HelpPage\Views\Web.config" />
+    <None Include="Areas\HelpPage\Views\Web.config.pp" />
     <None Include="Areas\HelpPage\Views\_ViewStart.cshtml.pp" />
     <None Include="Areas\HelpPage\XmlDocumentationProvider.cs.pp" />
     <None Include="Nuget.Build.ps1" />
